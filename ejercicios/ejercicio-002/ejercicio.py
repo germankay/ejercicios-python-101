@@ -5,7 +5,10 @@ de los parámetros pasados a y b.
 
 
 def suma(a, b):
-    pass
+
+   assert(type (a) == int)
+   assert(type (b) == int)
+   return a+b
 
 
 # ------------------------------------------------------------------------
