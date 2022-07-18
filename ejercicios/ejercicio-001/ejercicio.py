@@ -4,10 +4,6 @@ segun el "nombre" (string) que se pasa como parametro.
 """
 
 
-from email import message
-from multiprocessing import Condition
-
-
 def hola(nombre):
     return f"Hola {nombre}"
     
