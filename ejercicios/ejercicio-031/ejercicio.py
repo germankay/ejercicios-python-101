@@ -33,9 +33,10 @@ def contar_si(lista, propiedad, valor):
     """
     contador = 0
     for elemento in lista:
-        if elemento[propiedad] == valor:
+    
+        if elemento.get(propiedad) == valor:        
             contador += 1
-
+        
     return contador
 
 # ------------------------------------------------------------------------
@@ -44,7 +45,7 @@ def contar_si(lista, propiedad, valor):
 # Una vez terminada la tarea ejecutar este archivo.
 # Si se ve la leyenda 'Ejercicio terminado OK' el ejercicio se considera completado.
 # La instruccion "assert" de Python lanzará un error si lo que se indica a
-#   continuacion es falso.
+#   continuacion es f|also.
 # Si usas GitHub (o similares) podes hacer una nueva rama con esta solución,
 #   crear un "pull request" y solicitar revision de un tercero.
 
